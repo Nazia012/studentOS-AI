@@ -90,7 +90,7 @@ const UrgentTasksRenderer = ({ body }) => {
 
         return (
           <div key={idx} className="relative pl-6">
-            <div className="absolute -left-[5px] top-1.5 w-2 h-2 rounded-full bg-indigo-500 ring-4 ring-slate-800" />
+            <div className="absolute left-[-5px] top-1.5 w-2 h-2 rounded-full bg-indigo-500 ring-4 ring-slate-800" />
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
               <div className="prose prose-invert prose-sm text-slate-300 max-w-none flex-1">
                 <ReactMarkdown components={MarkdownComponents}>{content}</ReactMarkdown>

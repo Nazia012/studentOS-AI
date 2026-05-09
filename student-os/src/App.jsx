@@ -228,7 +228,7 @@ function App() {
                       {msg.role === 'user' ? (
                         <div className="max-w-[80%] bg-indigo-600/40 backdrop-blur-md border border-indigo-400/30 text-white rounded-2xl rounded-tr-sm px-5 py-3 shadow-lg">
                           {msg.fileData && (
-                            <div className="mb-2 text-xs font-semibold text-indigo-200 flex items-center bg-black/20 px-2 py-1 rounded inline-block">
+                            <div className="mb-2 text-xs font-semibold text-indigo-200 inline-flex items-center bg-black/20 px-2 py-1 rounded">
                               📎 {msg.fileData.name || 'File attached'}
                             </div>
                           )}
