@@ -1,16 +1,28 @@
-# React + Vite
+# Student OS - Academic Survival Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered web application that helps students create personalized survival plans, study strategies, and productivity tools for academic success.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **AI-Powered Analysis**: Upload syllabi, notes, or text to get structured study plans with priorities and deadlines
+- **Survival Plans**: Generate practical study strategies with search links and tutorials
+- **Flashcard Generator**: Create flashcards from your content for quick review
+- **Pomodoro Timer**: Built-in study timer to maintain focus and productivity
+- **File Upload**: Support for PDF and image uploads (JPG, PNG, WEBP)
+- **Panic Mode**: Emergency revision strategies when time is limited
+- **Responsive Design**: Works on desktop and mobile devices
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19, Vite
+- **Styling**: Tailwind CSS, Framer Motion animations
+- **AI**: Google Gemini API
+- **Icons**: Lucide React
+- **Markdown**: React Markdown for content rendering
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd student-os
